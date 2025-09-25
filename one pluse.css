@@ -1,0 +1,929 @@
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      aspect-ratio: 100%;
+  }
+
+  nav {
+      width: 100%;
+      height: 50px;
+      /* background-color: aqua; */
+      padding: 0 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 0.3px solid gray;
+  }
+
+  .links a,
+  i {
+      padding: 0 10px;
+      text-decoration: none;
+      color: black;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .bgimage {
+      width: 100%;
+      height: 480px;
+      margin-bottom: 5px;
+      padding: 50px 0;
+  }
+
+  .pic1 {
+      background-image: url("images/one\ pluse1.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+  }
+
+  .pic2 {
+      background-image: url("images/one\ pluse2.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+  }
+
+  .pic3 {
+      background-image: url("images/one\ pluse3.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+  }
+
+  .pic4 {
+      background-image: url("images/one\ pluse4.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+  }
+
+  .pic5 {
+      background-image: url("images/one\ pluse5.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+  }
+
+  .bgimage img {
+      width: 100%;
+      height: 100%;
+  }
+
+  .bgimage h1,
+  p {
+      text-align: center;
+      padding: 2px 0;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .bgimage p {
+      opacity: 0.8;
+  }
+
+  .details1 {
+      float: left;
+      margin: 150px 0 0 70px;
+  }
+
+  .details2 {
+      float: right;
+      margin: 150px 50px 0 0;
+  }
+
+  .q {
+      font-size: 22px;
+  }
+
+  .bgimage button {
+      padding: 7px 15px;
+      margin: 10px 0 0 70px;
+      background-color: black;
+      color: white;
+      border-radius: 30px;
+      border: none;
+  }
+
+  .details1 button {
+      margin: 10px 0 0 30px;
+  }
+
+  .bgimage a {
+      color: black;
+  }
+
+  .good {
+      width: 350px;
+      height: 200px;
+      box-shadow: 0px 0px 10px rgb(80, 81, 55);
+      margin: 20px auto;
+      border-radius: 20px;
+      padding: 10px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 14px;
+  }
+
+  .main {
+      width: 100%;
+      height: auto;
+      /* background-color: aqua; */
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      padding: 20px;
+  }
+
+  .main .pic {
+      width: 100%;
+      height: 100%;
+      /* background-color: blanchedalmond; */
+      /* margin: 10px; */
+  }
+
+  .shortpic1 {
+      background-image: url("images/one\ pluse6.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+  }
+
+  .shortpic2 {
+      background-image: url("images/one\ pluse7.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+  }
+
+  .shortpic3 {
+      background-image: url("images/one\ pluse8.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+  }
+
+  .shortpic4 {
+      background-image: url("images/one\ pluse9.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+  }
+
+  .shortpic5 {
+      background-image: url("images/one\ pluse10.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+  }
+
+  .shortpic6 {
+      background-image: url("images/one\ pluse11.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+  }
+
+  .shortpic7 {
+      background-image: url("images/one\ pluse12.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+  }
+
+  .shortpic8 {
+      background-image: url("images/one\ pluse13.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+  }
+
+  .shortpic9 {
+      background-image: url("images/one\ pluse14.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+  }
+
+  .shortpic10 {
+      background-image: url("images/one\ pluse15.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+  }
+
+  .pic img {
+      width: 100%;
+  }
+
+  .pic .picd {
+      padding: 20px;
+  }
+
+  .picd p {
+      text-align: left;
+  }
+
+  .picd h1 {
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .picd a {
+      color: black;
+      opacity: 0.9;
+      font-size: 14px;
+  }
+
+  .picd button {
+      padding: 9px 12px;
+      background-color: black;
+      color: white;
+      border: none;
+      font-size: 13px;
+      border-radius: 25px;
+      margin: 210px 3px 0 10px;
+  }
+
+  .picd img {
+      width: 100px;
+      display: block;
+  }
+
+  .picd .btn {
+      margin-top: 160px;
+  }
+
+  .picd .btn1 {
+      margin-top: 200px;
+  }
+
+  .picd .btn2 {
+      margin-top: 235px;
+  }
+
+  #menu {
+      width: 99%;
+      /* height: 400px; */
+      padding: 0 20px;
+      display: flex;
+      /* border-radius: 10px; */
+  }
+
+  #menu .first {
+      width: 65%;
+      background-color: #efefed;
+  }
+
+  #menu .second {
+      width: 35%;
+      background-color: #efefed;
+      padding: 20px 0;
+  }
+
+  #menu .first img {
+      width: 100%;
+      height: 100%;
+  }
+
+  .second h1 {
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      margin: 0 20px;
+  }
+
+  .second p {
+      margin: 245px 0 10px 20px;
+      text-align: left;
+  }
+
+  .second button {
+      margin: 0;
+      padding: 8px 10px;
+      margin: 5px 0 0 20px;
+      background-color: black;
+      color: white;
+      border: none;
+      border-radius: 20px;
+  }
+
+  #menu1 {
+      width: 97%;
+      /* height: 500px; */
+      /* background-color: aqua; */
+      display: flex;
+      margin: 15px;
+  }
+
+  #menu1 .student {
+      width: 50%;
+      background-color: rgb(233, 227, 227);
+      padding-bottom: 10px;
+      margin: 10px;
+  }
+
+  #menu1 .student img {
+      width: 100%;
+  }
+
+  .student h2 {
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      padding: 10px;
+  }
+
+  .student p,
+  a {
+      text-align: left;
+      padding: 10px;
+      color: black;
+  }
+
+  /* main .ex{
+        width: 100%;
+        height: 500px;
+        background-image: url("images/one\ pluse1.jpg");
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    } */
+  main .btn11 {
+      margin: 20px 30px;
+  }
+
+  .btn11 button {
+      padding: 10px 15px;
+      margin-right: 20px;
+      background-color: white;
+      border: none;
+      border: 1px solid black;
+      border-radius: 30px;
+  }
+
+  footer .foot {
+      width: 100%;
+      height: 350px;
+      display: flex;
+  }
+
+  footer {
+      width: 100%;
+      height: auto;
+      padding: 20px;
+  }
+
+  .foot .left {
+      width: 48%;
+      /* height: auto; */
+      background-image: url("images/one\ pluse27.jpg");
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin: 20px 10px;
+  }
+
+  .foot .right {
+      width: 48%;
+      /* height: 100%; */
+      background-image: url("images/one\ pluse28.jpg");
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin: 20px 10px;
+      overflow-y: scroll;
+  }
+
+  .foot h1 {
+      margin: 20px;
+  }
+
+  .foot .left button {
+      width: 300px;
+      padding: 10px;
+      margin: 90px 0 0 20px;
+      background: transparent;
+      border: none;
+      color: white;
+      border: 1px solid gray;
+  }
+
+  .input {
+      width: 280px;
+      display: flex;
+      background: transparent;
+      border: 1px solid gray;
+      padding: 10px;
+      margin: 0 0 0 20px;
+  }
+
+  .input input,
+  button {
+      padding: 5px;
+      margin-left: 5px;
+      background: transparent;
+      border: none;
+  }
+
+  .input input {
+      border-right: 2px solid gray;
+      outline: none;
+      color: white;
+  }
+
+  ::-webkit-inner-spin-button,
+  ::-webkit-outer-spin-button {
+      display: none;
+  }
+
+  .check {
+      display: flex;
+      /* margin: 0;padding: 0; */
+      margin: 0 0 0 20px;
+  }
+
+  .check p {
+      padding: 15px 0 0 10px;
+
+  }
+
+  footer .nav1 {
+      display: flex;
+
+  }
+
+  .nav {
+      width: 300px;
+
+      /* background-color: aqua; */
+      margin: 60px 10px 10px 10px;
+  }
+
+  .nav a {
+      color: white;
+      display: inline-block;
+      opacity: 0.7;
+      font-size: 13px;
+      /* margin: 5px 0; */
+      text-decoration: none;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .nav p {
+      text-align: left;
+      margin-left: 10px;
+      font-size: 18px;
+  }
+
+  .foot_icon {
+      width: 100%;
+      /* height: 100px; */
+      /* background-color: white; */
+      border-bottom: 1px solid gray;
+      padding: 20px 0 10px 0;
+      display: flex;
+  }
+
+  .icon_card i {
+      padding: 2px;
+      /* margin: 0; */
+      margin-left: 20px;
+      color: white;
+      opacity: 0.7;
+      font-size: 13px;
+  }
+
+  .icon_card p {
+      display: inline-block;
+      color: white;
+      padding: 0;
+      margin: 0;
+      opacity: 0.7;
+      font-size: 13px;
+  }
+
+  .svg {
+      margin: 0;
+      margin-left: 510px;
+  }
+
+  .svg img {
+      margin: 0 7px;
+  }
+
+  .bgimage .btnbg {
+      margin-left: 500px;
+  }
+
+  .nav2 {
+      width: 100%;
+      /* background-color: blue; */
+      padding: 20px;
+      display: none;
+  }
+
+  .nav2 details {
+      width: 100%;
+      border-bottom: 1px solid silver;
+      padding: 15px;
+      margin: 10px 0;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .nav2 summary {
+      font-size: 22px;
+      cursor: pointer;
+  }
+
+  .nav2 a {
+      text-decoration: none;
+      color: white;
+      padding: 10px 15px;
+      display: inline-block;
+      opacity: 0.7;
+  }
+
+  details summary::after {
+      content: '+';
+      float: right;
+      font-size: 30px;
+      transform: rotate(180deg);
+      color: white;
+  }
+
+  .svg1 {
+      display: none;
+  }
+
+  @media (max-width:1024px) {
+      .links {
+          display: none;
+      }
+
+      .bgimage .btnbg {
+          margin-left: 400px;
+      }
+
+      .nav {
+          display: none;
+      }
+
+      .nav2 {
+          display: block;
+      }
+
+      footer .foot {
+          display: block;
+          height: auto;
+      }
+
+      .foot .l1 {
+          width: 100%;
+          padding: 10px 0;
+          height: 300px;
+      }
+
+      .svg {
+          display: none;
+      }
+
+      .svg1 {
+          display: block;
+          margin: 0 20px;
+      }
+
+      .svg1 img {
+          padding: 0 5px;
+      }
+
+      .icon_card {
+          padding: 5px;
+          /* background-color: aqua; */
+      }
+  }
+
+  @media (max-width:950px) {
+
+      main .pic4,
+      .pic5 {
+          display: none;
+      }
+  }
+
+  @media (max-width:855px) {
+      .bgimage .btnbg {
+          margin: 10px 0 0 330px;
+      }
+
+      .bgimage .m2 {
+          margin: 10px 0 0 360px;
+      }
+
+      .pic .picd h1 {
+          font-size: 25px;
+      }
+  }
+
+  @media (max-width:650px) {
+      * {
+          margin: 0;
+          padding: 0;
+      }
+
+      .main {
+          /* background-color: aqua; */
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 10px;
+          /* padding: 20px; */
+      }
+
+      .bgimage .btnbg {
+          margin: 10px 0 0 250px;
+          font-size: 10px;
+      }
+
+      .bgimage .q {
+          font-size: 17px;
+      }
+
+      .bgimage h1 {
+          font-size: 25px;
+      }
+
+      .bgimage p,
+      a {
+          font-size: 11px;
+          padding: 0;
+      }
+
+      .main {
+          margin: 0;
+          padding: 0 5px 0 10px;
+      }
+
+      .main .pic {
+          width: 100%;
+          margin: 3px 0;
+      }
+
+      .pic .picd h1 {
+          font-size: 15px;
+      }
+
+      .pic .picd p {
+          font-size: 13px;
+      }
+
+      main #menu {
+          display: block;
+          margin: 0;
+      }
+
+      #menu .first {
+          width: 100%;
+
+      }
+
+      #menu .second {
+          width: 100%;
+      }
+
+      #menu p {
+          margin: 10px 20px;
+          font-size: 13px;
+      }
+
+      #menu h1 {
+          font-size: 18px;
+      }
+
+      main .pic4,
+      .pic5 {
+          display: none;
+      }
+
+      .bgimage .m2 {
+          margin-left: 280px;
+      }
+
+      .bgimage .m1 {
+          margin-left: 270PX;
+      }
+
+      .pic .picd {
+          padding: 15px;
+      }
+
+      .pic .btn {
+          margin-left: 0;
+          font-size: 10px;
+      }
+
+      .pic a {
+          font-size: 12px;
+      }
+
+      .pic .picd p {
+          font-size: 13px;
+      }
+
+      .pic button {
+          margin-left: 0;
+
+          font-size: 10px;
+      }
+
+      #menu {
+          padding: 5px 0 0 10px;
+      }
+
+      #menu1 .student {
+          font-size: 8px;
+          /* margin: 0; */
+          padding-bottom: 5px;
+      }
+
+      .student p {
+          font-size: 8px;
+          padding-top: 0;
+      }
+
+      .student a {
+          padding-left: 10px;
+          font-size: 8px;
+      }
+
+      .btn11 button {
+          font-size: 8px;
+          margin: 5px;
+          padding: 10px;
+      }
+
+      .foot {
+          width: 100%;
+          overflow: hidden;
+      }
+
+      .foot .left {
+          width: 100%;
+          object-fit: cover;
+      }
+
+      footer {
+          width: 100%;
+          padding: 20px;
+      }
+
+      .foot h1 {
+          font-size: 20px;
+      }
+
+      .foot p {
+          font-size: 10px;
+      }
+
+      .foot .left button {
+          width: 150px;
+      }
+
+      .foot .right .input {
+          width: 200px;
+      }
+
+      .foot .right .input input {
+          width: 110px;
+          font-size: 10px;
+      }
+
+      .foot .right .input button {
+          font-size: 10px;
+      }
+
+      .check p {
+          font-size: 7px;
+      }
+
+      .check input {
+          margin-top: 13px;
+      }
+
+      .foot .speis {
+          font-size: 7px;
+      }
+
+      footer .akela {
+          font-size: 10px;
+          padding: 0 10px;
+      }
+
+      .foot_icon .icon_card p {
+          font-size: 10px;
+      }
+
+      .foot_icon .icon_card i {
+          font-size: 10px;
+      }
+
+      .foot_icon .icon_card {
+          margin: 0;
+          padding: 0;
+      }
+  }
+  @media (max-width:540px){
+     .bgimage .btnbg {
+          margin: 10px 0 0 200px;
+      }
+      .bgimage .m2 {
+          margin: 10px 0 0 230px;
+      }
+      .pic .picd h1{
+        font-size: 25px;
+      }
+  }
+  @media (max-width:500px) {
+      .main {
+          /* background-color: aqua; */
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+          gap: 10px;
+          /* padding: 20px; */
+      }
+
+      .bgimage .btnbg {
+          margin: 10px 0 0 180px;
+      }
+
+      .bgimage .m1 {
+          margin: 10px 0 0 190px;
+      }
+
+      .bgimage .m2 {
+          margin: 10px 0 0 205px;
+      }
+  }
+   @media (max-width:430px) {
+     .bgimage .btnbg {
+          margin: 10px 0 0 150px;
+      }
+      .bgimage .m2 {
+          margin: 10px 0 0 170px;
+      }
+      .pic .picd h1{
+        font-size: 25px;
+      }
+  }
+   @media (max-width:414px) {
+     .bgimage .btnbg {
+          margin: 10px 0 0 140px;
+      }
+      .bgimage .m2 {
+          margin: 10px 0 0 160px;
+      }
+      .pic .picd h1{
+        font-size: 25px;
+      }
+  }
+   @media (max-width:390px) {
+     .bgimage .btnbg {
+          margin: 10px 0 0 125px;
+      }
+      .bgimage .m2 {
+          margin: 10px 0 0 150px;
+      }
+      .pic .picd h1{
+        font-size: 25px;
+      }
+  }
+   @media (max-width:360px) {
+     .bgimage .btnbg {
+          margin: 10px 0 0 115px;
+      }
+      .bgimage .m2 {
+          margin: 10px 0 0 135px;
+      }
+      .pic .picd h1{
+        font-size: 25px;
+      }
+  }
+  @media (max-width:345px) {
+      .bgimage .btnbg {
+          margin: 10px 0 0 100px;
+      }
+
+      .bgimage .m1 {
+          margin: 10px 0 0 110px;
+      }
+
+      .bgimage .m2 {
+          margin: 10px 0 0 125px;
+      }
+
+      footer .akela {
+          font-size: 6px;
+      }
+
+      .foot_icon .icon_card p {
+          font-size: 8px;
+      }
+
+      .foot_icon .icon_card i {
+          font-size: 9px;
+      }
+
+  }
